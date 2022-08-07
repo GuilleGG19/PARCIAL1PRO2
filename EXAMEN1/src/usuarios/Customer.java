@@ -3,10 +3,10 @@ package usuarios;
 public class Customer extends User {
     private String customerName;
     private String address;
-    String email;
-    String crediCardInfo;
-    String shippinginfo;
-    float accountBalance;
+    private String email;
+    private String crediCardInfo;
+    private String shippinginfo;
+    private float accountBalance;
 
     public void register ()
     {
